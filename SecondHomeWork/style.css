@@ -1,0 +1,26 @@
+.button-class {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 117, 214, 1) 0%,
+    rgba(255, 222, 245, 1) 50%,
+    rgba(255, 117, 214, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff75d6', endColorstr='#ff75d6', GradientType=0 );
+  height: 50px;
+  width: 140px;
+  border-radius: 25px;
+  border: 4.5px double rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  outline: none;
+  cursor: pointer;
+}
+
+.button-class:active {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 222, 245, 1) 0%,
+    rgba(255, 117, 214, 1) 50%,
+    rgba(255, 222, 245, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff75d6', endColorstr='#ff75d6', GradientType=0 );
+}
