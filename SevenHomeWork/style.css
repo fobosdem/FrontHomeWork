@@ -1,0 +1,17 @@
+li.peaks::before {
+    content: "\2660";
+}
+
+li.clovers::before {
+    content: "\2663";
+}
+
+li.tiles::before {
+    content: "\2666";
+    color: red;
+}
+
+li.hearts::before {
+    content: "\2665";
+    color: red;
+}   

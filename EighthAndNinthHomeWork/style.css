@@ -1,0 +1,62 @@
+.fixed{
+    width: 600px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px 30px;
+    position: fixed;
+    top: 5%;
+    right: 50%;
+    left: 50%;
+    margin: 0 0 0 -350px;
+}
+
+@font-face{
+    font-family: Font1;
+    src: local("18392"),
+        url(./fonts/18290.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Font2;
+    src: local("18393"),
+        url(./fonts/18341.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Font3;
+    src: local("18365"),
+        url(./fonts/18365.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Font4;
+    src: local("18290"),
+        url(./fonts/18392.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Font5;
+    src: local("18158"),
+        url(./fonts/18422.otf);
+    font-weight: bold;
+}
+
+.first-font{
+    font-family: "Font1";
+}
+.second-font{
+    font-family: "Font2";
+}
+.third-font{
+    font-family: "Font3";
+}
+.fourth-font{
+    font-family: "Font4";
+}
+.fifth-font{
+    font-family: "Font5";
+}
