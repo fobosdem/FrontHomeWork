@@ -1,0 +1,13 @@
+Export task faulted at Wednesday, December 11, 2019 2:11:44 PM.Reason : Exception happened during export process. Exception message: Sequence contains no elements
+
+STACK TRACE:
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at CnetContent.SpecForgeExportTool.Bundler.Csv.CsvBundler.ApplyColumnValueSplitting(IEnumerable`1 columnedAttributes) in d:\a\1\s\SpecForgeExportTool.Bundler.Csv\CsvBundler.cs:line 215
+   at CnetContent.SpecForgeExportTool.Bundler.Csv.CsvBundler.CreateAttributeDump(IEnumerable`1 products, String fileName, String excelFriendlyFileName, CancellationToken cancellationToken) in d:\a\1\s\SpecForgeExportTool.Bundler.Csv\CsvBundler.cs:line 183
+   at CnetContent.SpecForgeExportTool.Bundler.Csv.CsvBundler.CreateBundle(Object source, CancellationToken cancellationToken) in d:\a\1\s\SpecForgeExportTool.Bundler.Csv\CsvBundler.cs:line 97
+   at CnetContent.SpecForgeExportTool.WebUi.Controllers.ExportController.<CreateBundle>d__16.MoveNext() in d:\a\1\s\SpecForgeExportTool.WebUi\Controllers\ExportController.cs:line 456
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CnetContent.SpecForgeExportTool.WebUi.Controllers.ExportController.<Run>d__6.MoveNext() in d:\a\1\s\SpecForgeExportTool.WebUi\Controllers\ExportController.cs:line 208
+

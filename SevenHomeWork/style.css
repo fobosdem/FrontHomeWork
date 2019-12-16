@@ -14,4 +14,4 @@ li.tiles::before {
 li.hearts::before {
     content: "\2665";
     color: red;
-}   
+}
